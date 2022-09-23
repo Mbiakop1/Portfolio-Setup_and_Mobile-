@@ -1,6 +1,6 @@
 # Portfolio-Setup_and_Mobile-
 
-> It's a simple html and css project to write Hello Microverse.
+> It's a simple html and css project to create a mobile friendly web page with header including navbar.
 
 
 
@@ -16,7 +16,7 @@
 
 ## Getting Started
 
-To get a local copy up and run git clone https://github.com/Tushar151997/Hello and follow these steps.
+To get a local copy up and run git clone https://github.com/Tushar151997/Portfolio-Setup_and_Mobile-.git and follow these steps.
 
 
 To get a local copy up and running follow these simple example steps.
