@@ -9,7 +9,7 @@ body {
 }
 
 .background-img {
-  background-image: url(./img/mobile-background.png);
+  background-image: url(img/mobile-background.png);
   background-size: contain;
   background-repeat: no-repeat;
   width: 100%;
