@@ -1,6 +1,6 @@
 # Portfolio-Setup_and_Mobile-
 
-> It's a simple html and css project to create a mobile friendly web page with header including navbar.
+> This project is about creating a portfolio page using best practices for HTML and CSS and uses linters, GitHub Flow rules and documentation of work. It is important to start with a new repository and setup the linters, follow a design template for the portfolio or create your own through Figma and code it using HTML and CSS. I built the first 2 sections of the mobile website using a Figma template provided by Microverse..
 
 
 
