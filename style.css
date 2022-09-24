@@ -1,174 +1,115 @@
-#container {
-  width: 375px;
-  height: 670px;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 16px 16px;
   background-color: #f7f7f9;
 }
 
-#template1 {
-  width: 375px;
-  height: 718px;
+.background-img {
+  background-image: url(./img/mobile-background.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
 }
 
-.toolbar {
-  width: 375px;
-  height: 92px;
-}
-
-.bar {
-  width: 375px;
-  height: 44px;
+.row {
   display: flex;
-}
-
-.bar > p {
-  width: 54px;
-  height: 16px;
-  margin-top: 16px;
-  margin-left: 21px;
-  font-family: 'poppins', sans-serif;
-  font-weight: 500;
-  text-align: center;
-  font-size: 14px;
-  line-height: 16.41px;
-  color: #000;
-  letter-spacing: -0.28px;
-}
-
-.mobile_network {
-  width: 17px;
-  height: 10.67px;
-  margin-left: 218.67px;
-  color: #000;
-  margin-top: 17.67px;
-}
-
-.mobile_wifi {
-  width: 15.27px;
-  height: 10.97px;
-  margin-top: 17.33px;
-  margin-left: 5.03px;
-  color: #000;
-}
-
-.mobile_battery {
-  width: 24.33px;
-  height: 11.33px;
-  margin-left: 5.03px;
-  margin-top: 17.33px;
-  border-radius: 1.33333px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  row-gap: 20px;
+  flex-direction: column;
+  background-color: #fff;
+  border-radius: 0.05px;
+  padding: 16px 16px;
+  margin-bottom: 88px;
 }
 
 header {
-  width: 375px;
-  height: 44px;
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  border-radius: none;
+  padding: 10px 10px;
 }
 
-.logo {
-  width: 76px;
-  height: 20px;
-  margin-top: 4px;
-  margin-left: 24px;
-  text-align: center;
-  font-family: 'poppins', sans-serif;
+.log {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: 20px;
-  text-decoration: none;
   color: #6070ff;
 }
 
-.ham {
-  width: 18px;
-  height: 12px;
-  margin-top: 6px;
-  margin-left: 223px;
+.header-button {
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 21px;
+  border: none;
+  background: none;
 }
 
-.bg_image {
-  height: 10px;
-  width: 375px;
-  margin: auto;
+.header-button .bar {
+  height: 3px;
+  width: 100%;
+  list-style: none;
+  border-radius: 10px;
+  background-color: rgb(89, 89, 230);
+  color: rgb(89, 89, 230);
 }
 
-.intro {
-  width: 327px;
-  height: 144px;
-  margin-top: 84px;
-  margin-left: 24px;
+.main {
+  color: #555;
+  font-size: 40px;
   font-weight: 700;
-  font-size: 30px;
-  color: #172b4d;
-  line-height: 52px;
+  font-style: normal;
+  line-height: 1.2;
+  padding-bottom: 10px;
+  display: flex;
+}
+
+.main-description {
+  display: flex;
   font-family: 'poppins', sans-serif;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+  font-style: normal;
+  font-size: 40px;
+  font-weight: 700;
+  padding-top: 96px;
 }
 
 .description {
-  width: 327px;
-  height: 146px;
-  margin-left: 24px;
-  margin-top: 24px;
+  font-size: 16px;
   font-family: 'poppins', sans-serif;
   font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  font-style: normal;
   color: #344563;
+  line-height: 24px;
 }
 
-.description > p {
-  margin-top: 12px;
-}
-
-.connect > h3 {
-  width: 117px;
-  height: 24px;
-  margin-left: 24px;
-  margin-top: 12px;
+.text {
+  text-transform: uppercase;
   font-family: 'poppins', sans-serif;
+  font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  font-weight: 500;
-  font-style: normal;
   color: #7f8cff;
 }
 
-ul {
+.button-bott {
   display: flex;
-  width: 170.17px;
-  height: 20px;
-  margin-left: 24px;
-  margin-top: 12px;
-  list-style: none;
-}
-
-.twitter {
-  width: 19.99px;
-  height: 19.96px;
-  margin-left: -40px;
-}
-
-.linkedIn {
-  height: 20px;
-  width: 20px;
-  margin-left: -5px;
-}
-
-.m {
-  width: 20px;
-  height: 16px;
-  margin-left: 20px;
-  margin-top: 2px;
-}
-
-.github {
-  width: 17.99px;
-  height: 20px;
-  margin-left: 20px;
-}
-
-.ok {
-  width: 14.17px;
-  height: 20px;
-  margin-left: 19.01px;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 2rem;
+  list-style-type: none;
+  padding-inline-start: 0;
+  margin-bottom: 10px;
 }
