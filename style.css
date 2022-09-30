@@ -1,4 +1,5 @@
-* {
+* 
+{
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -8,7 +9,8 @@ body {
   background-color: #f7f7f9;
 }
 
-.background-img {
+.background-img 
+{
   background-image: url(img/mobile-background.png);
   background-size: contain;
   background-repeat: no-repeat;
@@ -16,7 +18,8 @@ body {
   border-bottom-left-radius: 50px;
 }
 
-.row {
+.row 
+{
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
@@ -105,7 +108,8 @@ header {
   border-radius: 8px;
 }
 
-.project {
+.project
+{
   display: grid;
   grid-template-columns: 1fr;
   gap: 88px;
@@ -140,7 +144,8 @@ header {
   color: #7a869a;
 }
 
-.tex-sec {
+.tex-sec 
+{
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -270,7 +275,8 @@ header {
   gap: 12px;
 }
 
-.icon {
+.icon 
+{
   width: 24px;
   height: 24px;
   stroke: #344563;
